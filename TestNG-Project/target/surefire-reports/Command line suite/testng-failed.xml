@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.selenium.ParameterizedTest"/>
+      <class name="ParameterizedTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ParameterizedTest">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- ParameterizedTest -->
+      <class name="com.selenium.ParameterizedTest">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- com.selenium.ParameterizedTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
