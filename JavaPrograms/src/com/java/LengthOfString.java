@@ -9,6 +9,6 @@ public class LengthOfString {
 			i++;
 		}
 		
-		System.out.println("Lenght of given string: " +i);
+		System.out.println("Length of given string: " +i);
 	}
 }
